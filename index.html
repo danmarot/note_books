@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Note Books</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="first">
+        <form id="form" action="send.html">
+
+            <ul class="datos-lista">
+
+
+                <li>
+                    <label>
+                        <input class="area" type="text" id="tarea" placeholder="Introduce una Tarea">
+                    </label>
+                </li>
+    
+                <li>
+                    <label>
+                        Prioridad:
+                        <select class="area"  type="select" id="prioridad" placeholder="prioridad">
+                            <option value="Normal" selected>Normal</option> 
+                            <option value="Importante">Importante</option>
+                            <option value="Muy importante">Muy importante</option>
+
+                        </select>
+                    </label>
+                </li>
+    
+                <li>
+    
+                    <input id="btn" class="btn" type="submit" value="GUARDAR">
+    
+                </li>
+
+            </ul>
+            
+
+        </form>
+        <p id="mensaje"></p>
+    </div>
+
+
+    <ul class="titulos">
+        <li>TAREA</li>
+        <li>
+            <label>
+                Filtrar por Prioridad:
+                <select id ="area" class="area"  type="select" id="prioridad" placeholder="prioridad">
+                    <option value="Normal" selected>Normal</option> 
+                    <option value="Importante">Importante</option>
+                    <option value="Muy importante">Muy importante</option>
+
+                </select>
+            </label>
+        </li>
+
+    </ul>
+    
+    <ul  class="tareaspintadas" id="listaTareas">
+        
+        <!--
+        <li>
+            tareas
+        </li>
+        <li>
+            prioridad
+                <button></button>
+        </li>
+        -->
+
+    </ul>
+
+
+    
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

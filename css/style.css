@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.area{
+    height: 24px;
+    color:#8d8989;
+    height: 24px;
+    background-color:white;
+    border: 1px solid #a8a8a8;
+    border-radius: 6px;
+}
+
+.areaFiltrar{
+    height: 24px;
+    color:#8d8989;
+    height: 24px;
+    background-color:white;
+    border: 1px solid #a8a8a8;
+    border-radius: 6px;
+}
+
+
+
+
+.btn{
+    color:#8d8989;
+    height: 24px;
+    width: 67px;
+    background-color:white;
+    border: 2px solid #a8a8a8;
+    border-radius: 6px;
+}
+
+#mensaje {
+    text-align: center;
+    margin-top: 11px;
+    color:#860000;
+    font-weight: bold;
+}
+
+div.first{
+    background-color:#eeeaea;
+    padding: 1rem 0;
+    border: 2px solid black;
+    border-radius: 0 0 5px 5px;
+}
+
+
+ul.datos-lista {
+    list-style-type: none;
+    display: flex;
+}
+
+ul.datos-lista li{
+    margin: 0 3rem;
+}
+
+ul.tareaspintadas li{
+    list-style-type: none;
+}
+
+ul.titulos{
+    list-style-type: none;
+    background-color:#a6a2a2;
+    display: flex;
+    justify-content: space-around;
+    color:white;
+    font-weight: bold;
+}
+
+ul.tareaspintadas{
+    list-style-type: none;
+    display: block;
+    text-align: center;
+    justify-content: space-around;
+    color:white;
+    font-weight: bold;
+    list-style-type: none;
+    background-color:white;
+    color:black;
+    border-bottom: 1px solid black;
+}
+
+
+ul.tareaspintadas li{
+    list-style-type: none;
+    display: block;
+    text-align: center;
+    justify-content: space-around;
+    color:white;
+    font-weight: bold;
+    list-style-type: none;
+    background-color:white;
+    color:black;
+    border-bottom: 1px solid black;
+}
+
+
+ul li.mostrarListado{
+    background-color: white;
+    padding: 12px;
+}
+
+.btn-borrar {
+
+    width: auto;
+    padding: 3px 10px;
+    border: 1px solid black;
+    border-radius: 11px;
+    margin-left: 100px;
+    color:white;
+    background-color:#ff2400;
+}
+
+.disapear{
+    display: none;
+}
